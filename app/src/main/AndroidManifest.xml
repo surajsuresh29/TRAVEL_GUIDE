@@ -45,6 +45,9 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".chat" />
+        <activity
+            android:name=".GMapsActivity"
+            android:label="@string/title_activity_gmaps"></activity>
     </application>
 
 </manifest>

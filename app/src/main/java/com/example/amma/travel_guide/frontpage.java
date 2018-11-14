@@ -104,6 +104,9 @@ public class frontpage extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.nav_map) {
+            Intent i = new Intent(this, GMapsActivity.class);
+            startActivity(i);
+
 
         } else if (id == R.id.nav_profile) {
 

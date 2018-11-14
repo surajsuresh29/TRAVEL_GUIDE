@@ -39,14 +39,25 @@ public class GMapsActivity extends FragmentActivity implements OnMapReadyCallbac
         mMap = googleMap;
         // Add a marker in KOCHI and move the camera
         LatLng kochi = new LatLng(9.960622, 76.2359853);
-        // Add a marker in KOCHI and move the camera
-        LatLng trv = new LatLng(9.960622, 76.2359853);
+
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(kochi,10));
+        //  mMap.getUiSettings().setZoomControlsEnabled(true);
+
+        //mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+
+        mMap.addMarker(new MarkerOptions().position(kochi).title("Marker in kochi"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(kochi));
+
+
+        // Add a marker in trivandrum and move the camera
+        LatLng trv = new LatLng(8.4874235, 76.9510277);
+
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(trv,10));
         mMap.getUiSettings().setZoomControlsEnabled(true);
-       
+
         mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
 
-        mMap.addMarker(new MarkerOptions().position(kochi).title("Marker in Kerala"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(kochi));
+        mMap.addMarker(new MarkerOptions().position(trv).title("Marker in trivandrum"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(trv));
     }
 }
