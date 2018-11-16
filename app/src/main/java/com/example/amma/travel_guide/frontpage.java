@@ -13,7 +13,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -116,10 +115,11 @@ public class frontpage extends AppCompatActivity
             Toast.makeText(this, "SUCCESSFULLY LOGOUT ", Toast.LENGTH_SHORT).show();
 
         }
-        else if (id == R.id.nav_trip) {
-            //webView= findViewById(R.id.web);
-            webView.getSettings().setJavaScriptEnabled(true);
-            webView.loadUrl("http://www.ttpkerala.com");
+        else if (id == R.id.nav_trip)
+        {
+            Intent i=new Intent(this,booking.class);
+            startActivity(i);
+
 
 
         }

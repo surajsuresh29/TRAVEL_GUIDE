@@ -60,7 +60,7 @@ public class login extends AppCompatActivity {
         }
     public void Signup(View view)
     {
-        Intent i = new Intent(this,signup.class);
+        Intent i = new Intent(this,booking.class);
 
         startActivity(i);
     }

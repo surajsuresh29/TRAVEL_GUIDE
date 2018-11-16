@@ -26,7 +26,7 @@
         </activity>
         <activity android:name=".Main" />
         <activity android:name=".starting_page" />
-        <activity android:name=".signup" />
+        <activity android:name=".booking" />
         <activity android:name=".profile" />
         <activity
             android:name=".frontpage"
@@ -47,7 +47,8 @@
         <activity android:name=".chat" />
         <activity
             android:name=".GMapsActivity"
-            android:label="@string/title_activity_gmaps"></activity>
+            android:label="@string/title_activity_gmaps" />
+        <activity android:name=".car"></activity>
     </application>
 
 </manifest>

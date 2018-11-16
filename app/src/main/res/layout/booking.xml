@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booking"
+    android:background="@drawable/back1">
+
+
+    <TextView
+        android:layout_width="267dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:text="BOOKING"
+        android:textColor="#1a8ee2"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/hotel"
+        android:text="Car"
+        android:onClick="car_click"/>
+
+    <Button
+        android:id="@+id/hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="Hotel"
+        android:onClick="hotel_click"/>
+
+
+
+</RelativeLayout>
