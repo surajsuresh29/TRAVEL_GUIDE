@@ -17,21 +17,21 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login">
+        <activity android:name=".login"></activity>
+        <activity android:name=".Main" />
+        <activity android:name=".starting_page"></activity>
+        <activity android:name=".booking" />
+        <activity android:name=".profile" />
+        <activity
+            android:name=".frontpage"
+            android:label="@string/title_activity_frontpage"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main" />
-        <activity android:name=".starting_page" />
-        <activity android:name=".booking" />
-        <activity android:name=".profile" />
-        <activity
-            android:name=".frontpage"
-            android:label="@string/title_activity_frontpage"
-            android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -48,7 +48,8 @@
         <activity
             android:name=".GMapsActivity"
             android:label="@string/title_activity_gmaps" />
-        <activity android:name=".car"></activity>
+        <activity android:name=".car" />
+        <activity android:name=".hotel1"></activity>
     </application>
 
 </manifest>

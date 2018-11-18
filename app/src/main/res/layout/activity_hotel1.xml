@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/dis"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="37dp"
+                android:hint="Enter District"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="193dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/dis"
+                android:layout_marginEnd="41dp"
+                android:onClick="dis_select"
+                android:text="SELECT"
+                tools:layout_editor_absoluteX="137dp"
+                tools:layout_editor_absoluteY="60dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/hotel1"
+                android:layout_width="164dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="154dp"
+                android:text=""
+                android:textColor="#4B52A9" />
+
+            <TextView
+                android:id="@+id/add1"
+                android:layout_width="190dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/hotel1"
+                android:text=""
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/dis"
+                android:layout_below="@+id/hotel1"
+                android:text="BOOK NOW"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/hotel2"
+                android:layout_width="164dp"
+                android:layout_height="34dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/hotel1"
+                android:layout_marginTop="248dp"
+                android:text=""
+                android:textColor="#4B52A9" />
+
+            <TextView
+                android:id="@+id/add2"
+                android:layout_width="190dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="248dp"
+                android:text=""
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/dis"
+                android:layout_below="@+id/hotel2"
+                android:text="BOOK NOW"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/hotel3"
+                android:layout_width="164dp"
+                android:layout_height="34dp"
+                android:layout_alignStart="@+id/hotel1"
+                android:layout_marginTop="342dp"
+                android:text=""
+                android:textColor="#4B52A9" />
+
+            <TextView
+                android:id="@+id/add3"
+                android:layout_width="190dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="342dp"
+                android:text=""
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/dis"
+                android:layout_below="@+id/hotel3"
+                android:text="BOOK NOW"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/hotel4"
+                android:layout_width="164dp"
+                android:layout_height="34dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/hotel1"
+                android:layout_marginTop="436dp"
+                android:text=""
+                android:textColor="#4B52A9" />
+
+            <TextView
+                android:id="@+id/add4"
+                android:layout_width="190dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="436dp"
+                android:text=""
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/dis"
+                android:layout_below="@+id/hotel4"
+                android:text="BOOK NOW"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/hotel5"
+                android:layout_width="164dp"
+                android:layout_height="34dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/hotel1"
+                android:layout_marginTop="530dp"
+                android:text=""
+                android:textColor="#4B52A9" />
+
+            <TextView
+                android:id="@+id/add5"
+                android:layout_width="190dp"
+                android:layout_height="95dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="530dp"
+                android:text=""
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/dis"
+                android:layout_below="@+id/hotel5"
+                android:text="BOOK NOW"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

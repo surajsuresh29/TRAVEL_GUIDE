@@ -25,7 +25,7 @@ public class booking extends AppCompatActivity {
     }
     public void hotel_click(View view)
     {
-        Intent i =new Intent(this,hotel.class);
+        Intent i =new Intent(this,hotel1.class);
         startActivity(i);
     }
 
