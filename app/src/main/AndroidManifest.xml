@@ -17,9 +17,9 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login"></activity>
+        <activity android:name=".login" />
         <activity android:name=".Main" />
-        <activity android:name=".starting_page"></activity>
+        <activity android:name=".starting_page" />
         <activity android:name=".booking" />
         <activity android:name=".profile" />
         <activity
@@ -49,7 +49,9 @@
             android:name=".GMapsActivity"
             android:label="@string/title_activity_gmaps" />
         <activity android:name=".car" />
-        <activity android:name=".hotel1"></activity>
+        <activity android:name=".hotel1" />
+        <activity android:name=".cofirmBooking" />
+        <activity android:name=".BookingConfirmed"></activity>
     </application>
 
 </manifest>

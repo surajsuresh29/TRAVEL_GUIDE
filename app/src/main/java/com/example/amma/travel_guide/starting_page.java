@@ -78,22 +78,87 @@ public class starting_page extends AppCompatActivity {
                     if (place.equals("Trivandrum")) {
 
                         image.setImageResource(R.drawable.trivandrum);
-                        txt2.setText("Thiruvananthapuram (or Trivandrum) is the capital of the southern Indian state of Kerala. It's distinguished by its British colonial architecture and many art galleries. It’s also home to Kuthira Malika (or Puthen Malika) Palace, adorned with carved horses and displaying collections related to the Travancore royal family, whose regional capital was here from the 18th–20th centuries.\n" +
-                                "Mahatma Gandhi Road is the main boulevard, lined with art and antiques shops, carpet sellers and sari stalls. To the north, the ornate Napier Museum houses ancient Indian carvings, bronzes and natural-history specimens, while Sri Chitra Art Gallery holds miniature Indian paintings and work by lauded artist Raja Ravi Varma (1848–1906). Nearby is Thiruvananthapuram Zoo, home to Bengal tigers, Asian elephants and Indian rhinos. To the south, the giant Dravidian-style Padmanabhaswamy Temple is dedicated to Vishnu, with a 7-tier entrance tower (gopuram). Along the coast are the popular beaches of Shankumugham and Kovalam.");
+                        txt2.setText("KOVALAM BEACH"+"\n"+"PADMANABHAPURAM  PALACE"+"\n"+"THIRUVANANTHPURAM ZOO"+"\n"+"ATTUKAL TEMPLE"+"\n"+"AGASTYA MALA"+"\n"+"VIZHINJAM LIGHTHOUSE"+"\n"+"SHANKUMUKHM BEACH"+"\n"+"POOVAR ISLAND"+"\n"+"PAZHAVANGADI GANAPATHY TEMPLE");
                     }
 
                     else if(place.equals("Kollam"))
                     {
 
                         image.setImageResource(R.drawable.kollam);
-                        txt2.setText("Kollam is a city in the state of Kerala, on India's Malabar Coast. It’s known as a trade hub and for its beaches, like lively Kollam and secluded Thirumullavaram. Sardar Vallabhbhai Patel Police Museum has artifacts tracing the history of the police force. Nearby, Ashtamudi Lake is a gateway to the Kerala backwaters, a network of waterways rich with vegetation. The striped 1902 Tangasseri Lighthouse has ocean views.");
+                        txt2.setText("GADAYU PARA"+"\n"+"ASHTAMUDI LAKE"+"\n"+"KOLLAM BEACH"+"\n"+"THANGASSERY LIGHTHOUSE"+"\n"+"AGASTYA MALA"+"\n"+"THEVVALLY"+"\n"+"PARAVUR LAKE"+"\n"+"KOLLAM PORT"+"\n"+"NEENDAKARA PORT");
+
                     }
                     else if(place.equals("Pathanamthitta"))
                     {
 
                         image.setImageResource(R.drawable.gavi);
-                        txt2.setText("Pathanamthitta is a town and a municipality situated in the Central Travancore region in the state of Kerala, south India, spread over an area of 23.50 km². It is the administrative capital of Pathanamthitta district. The town has a population of 37,538. The Hindu pilgrim centre Sabarimala is situated in the Pathanamthitta district; as the main transport hub to Sabarimala, the town is known as the 'Pilgrim Capital of Kerala'. Pathanamthitta. District, the thirteenth revenue district of the State of Kerala. It was formed with effect from 1 November 1982 vide G.O. No.1026/82/RD dated 29 October 1982, with headquarters at Pathanamthitta. Forest covers more than half of the total area of the District. Pathanamthitta District ranks the 7th in area in the State");
+                        txt2.setText("GAVI"+"\n"+"CHAKKULATHUKAVU TEMPLE"+"\n"+"ADAVI ECO TOURISM"+"\n"+"KONNI"+"\n"+"KAKKI RESERVOIR"+"\n"+"PERUNTHENARUVI FALLS"+"\n"+"ARANMULA PARTHASARATHY TEMPLE"+"\n"+"PERIYAR NATIONAL PARK"+"\n"+"SABARIMALA");
                     }
+                    else if(place.equals("Alappey"))
+                    {
+
+                        image.setImageResource(R.drawable.allapy);
+                        txt2.setText("HOUSEBOAT TOUR"+"\n"+"FERRY RIDE"+"\n"+"ALAPPUZHA LIGHTHOUSE"+"\n"+"KUTTANAD"+"\n"+"KRISHNAPURAM PALACE"+"\n"+"AMBALAPUZHA SREEKRISHNA TEMPLE"+"\n"+"VEMBANAD"+"\n"+"ALAPPUZHA BEACH"+"\n"+"MARARI BEACH");
+                    }
+                    else if(place.equals("Kottayam"))
+                    {
+                        image.setImageResource(R.drawable.kumarakam);
+                        txt2.setText("THIRUNNAKARA MAHADEVA TEMPLE"+"\n"+"THAZHATHANGADY JUMA MASJID"+"\n"+"GOOD SHEPHERED CHURCH"+"\n"+"ETTUMANUR TEMPLE"+"\n"+"THALIYIL MAHADEVA TEMPLE");
+
+                    }
+                    else if(place.equals("Idukki"))
+                    {
+                        image.setImageResource(R.drawable.munnar);
+                        txt2.setText("ERAVIKULAM NATIONAL PARK"+"\n"+"MATTUPETTY DAM"+"\n"+"ANAMUDI"+"\n"+"ELLIKAL KALLU"+"\n"+"MEESHPULIMALA"+"\n"+"MULLAPERIYAR DAM"+"\n"+"IDUKKI DAM"+"\n"+"KOLULKUMALAI");
+                    }
+                    else if(place.equals("Ernakulam"))
+                    {
+                        image.setImageResource(R.drawable.athirapally);
+                        txt2.setText("MARINE DRIVE"+"\n"+"FORT KOCHI"+"\n"+"CHERAI BEACH"+"\n"+"KUZHUPILLY BEACH"+"\n"+"VYPIN"+"\n"+"JEWS STREET"+"\n"+"EZHATTUMUGAM"+"\n"+"ILLITHODU"+"\n"+"KADAMAKUDY");
+                    }
+                    else if(place.equals("Thrissur"))
+                    {
+                        image.setImageResource(R.drawable.athirapally);
+                        txt2.setText("VADAKKUMNATHA TEMPLE"+"\n"+"THRISSUR ZOO"+"\n"+"SAKTHAN THAMBURAN PALACE"+"\n"+"PARAMEKAVU TEMPLE"+"\n"+"THEKKINKADU MAIDHAN"+"\n"+"POOMALA DAM"+"\n"+"PEECHI DAM");
+
+                    }
+                    else if(place.equals("Palakkad"))
+                    {
+                        image.setImageResource(R.drawable.allapy);
+                        txt2.setText("NELIYAMPATHY"+"\n"+"PALAKKAD FORT"+"\n"+"MALAMPUZHA DAM"+"\n"+"MUKKURTHI NATIONAL PARK"+"\n"+"TPOTHUNDI DAM"+"\n"+"DHONI WATERFALLS"+"\n"+"SILENT VALLEY");
+                    }
+                    else if(place.equals("Malappuram"))
+                    {
+                        image.setImageResource(R.drawable.allapy);
+                        txt2.setText("KODIKUTHIMALA"+"\n"+"ADYANPARA WATER FALLS"+"\n"+"THIRUNAVAYA TEMPLE"+"\n"+"KOTTAKUNNU"+"\n"+"THIRUMANDHAMKUNNU TEMPLE"+"\n"+"NILAMBUR TEAK MUSEUM"+"PONNANI BIYYAM KAYAL PARK"+"\n"+"PONNANI BEACH"+"\n"+"MINI OOTY");
+                    }
+                    else if(place.equals("Calicut"))
+                    {
+                        image.setImageResource(R.drawable.allapy);
+                        txt2.setText("KOZHIKODE BEACH"+"\n"+"MITTAYI THERUVU"+"\n"+"MANANCHIRA SQUARE"+"\n"+"KADALUNDI  BIRD SANCTUARY"+"\n"+"BEYPORE BEACH"+"\n"+"TALI SIVA TEMPLE"+"MISHKAL MOSQUE"+"\n"+"KAPPAD BEACH"+"\n"+"VASCODA GAMA MEMMORIAL CHURUCH"+"\n"+"REGIONAL SCIENCE CENTRE AND PLANETARIUM");
+
+                    }
+                    else if(place.equals("Wayanad"))
+                    {
+                        image.setImageResource(R.drawable.wayanad);
+                        txt2.setText("MUTHANGA WILDLIFE SANCTUARY"+"\n"+"THOLPETTY WILDLIFE SANCTUARY"+"\n"+"CHEMBRA PEAK"+"\n"+"EDAKKAL CAVES"+"\n"+"BANASURASAGAR DAM"+"\n"+"SOOCHIPARA FALLS"+"\n"+"KURUVA DWEEP"+"\n"+"THIRUNNELI TEMPLE"+"\n"+"NEELIMALA VIEW POINT"+"\n"+"PAZHASSI RAJA TOMB");
+                    }
+                    else if(place.equals("Kannur"))
+                    {
+                        image.setImageResource(R.drawable.allapy);
+                        txt2.setText("PARASSINI KADAVU TEMPLE"+"\n"+"MUZHUPPILLANGAD BEACH"+"\n"+"MAPPILA BAY"+"\n"+"ARAKKAL MUSEUM"+"\n"+"KANNUR BEACH"+"\n"+"KANNUR FORT"+"\n"+"PAYYAMBALAM BEACH");
+                    }
+                    else if(place.equals("Kasargod"))
+                    {
+                        image.setImageResource(R.drawable.allapy);
+                        txt2.setText("BEKAL FORT"+"\n"+"MAIPADY PALACE"+"\n"+"HOSDURG FORT"+"\n"+"CANDRAGIRI FORT"+"\n"+"VALIYAPARAMBA");
+
+                    }
+
+
+
+
+
 
 
                 }

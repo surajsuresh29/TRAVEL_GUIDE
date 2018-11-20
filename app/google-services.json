@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "387325853767",
-    "firebase_url": "https://travelguide-89673.firebaseio.com",
-    "project_id": "travelguide-89673",
-    "storage_bucket": "travelguide-89673.appspot.com"
+    "project_number": "420499441715",
+    "firebase_url": "https://travel-guide-222504.firebaseio.com",
+    "project_id": "travel-guide-222504",
+    "storage_bucket": "travel-guide-222504.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:387325853767:android:edd781fd95a8dd70",
+        "mobilesdk_app_id": "1:420499441715:android:edd781fd95a8dd70",
         "android_client_info": {
           "package_name": "com.example.amma.travel_guide"
         }
       },
       "oauth_client": [
         {
-          "client_id": "387325853767-1rpsm0p9lb3e3dbon70jvivnk2pphho6.apps.googleusercontent.com",
+          "client_id": "420499441715-3rvleioamikci3jv1q7otmmr5dag7gc8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.amma.travel_guide",
-            "certificate_hash": "957618ef27852c137deb5253e6605713ac822448"
+            "certificate_hash": "0cce95d1a3f0c7412b79be75570a39a4c2a1f489"
           }
         },
         {
-          "client_id": "387325853767-lc4f2aifvdcp5j161i71vru5fpop5tnb.apps.googleusercontent.com",
+          "client_id": "420499441715-h4kasn2dkonj4ih0f0gk78pu434cfk94.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDg44ghXaPKXUYqjeY52w-DWOF5GxwjIAE"
+          "current_key": "AIzaSyAXl4E7q4Em41ouTjSOUjthXIpyTBeWZTM"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "387325853767-lc4f2aifvdcp5j161i71vru5fpop5tnb.apps.googleusercontent.com",
+              "client_id": "420499441715-h4kasn2dkonj4ih0f0gk78pu434cfk94.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hotel1">
+    tools:context=".hotel1"
+    android:background="@drawable/hotel2">
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -16,27 +17,25 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/dis"
-                android:layout_width="140dp"
+            <Spinner
+                android:id="@+id/static_spinner"
+                android:layout_width="162dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="41dp"
-                android:layout_marginTop="37dp"
-                android:hint="Enter District"
-                android:textSize="20sp"
-                android:textStyle="italic"
-                tools:layout_editor_absoluteX="193dp"
-                tools:layout_editor_absoluteY="0dp" />
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="29dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
 
             <Button
-                android:layout_width="140dp"
+                android:id="@+id/select"
+                android:layout_width="104dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:layout_alignTop="@+id/dis"
-                android:layout_marginEnd="41dp"
-                android:onClick="dis_select"
+                android:layout_alignTop="@+id/static_spinner"
+                android:layout_marginEnd="32dp"
                 android:text="SELECT"
                 tools:layout_editor_absoluteX="137dp"
                 tools:layout_editor_absoluteY="60dp" />
@@ -48,7 +47,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="100dp"
-                android:text="" />
+                android:text=""
+                android:textColor="#FFFFFF"/>
 
 
             <TextView
@@ -69,6 +69,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_alignTop="@+id/hotel1"
                 android:text=""
+                android:textColor="#ffffff"
                 android:textStyle="italic" />
 
             <Button
@@ -77,6 +78,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/dis"
                 android:layout_below="@+id/hotel1"
+                android:onClick="h1"
                 android:text="BOOK NOW"
                 android:visibility="invisible" />
 
@@ -97,6 +99,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="248dp"
                 android:text=""
+                android:textColor="#ffffff"
                 android:textStyle="italic" />
 
             <Button
@@ -105,6 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/dis"
                 android:layout_below="@+id/hotel2"
+                android:onClick="h2"
                 android:text="BOOK NOW"
                 android:visibility="invisible" />
 
@@ -124,6 +128,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="342dp"
                 android:text=""
+                android:textColor="#ffffff"
                 android:textStyle="italic" />
 
             <Button
@@ -132,6 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/dis"
                 android:layout_below="@+id/hotel3"
+                android:onClick="h3"
                 android:text="BOOK NOW"
                 android:visibility="invisible" />
 
@@ -153,6 +159,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="436dp"
                 android:text=""
+                android:textColor="#ffffff"
                 android:textStyle="italic" />
 
             <Button
@@ -161,6 +168,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/dis"
                 android:layout_below="@+id/hotel4"
+                android:onClick="h4"
                 android:text="BOOK NOW"
                 android:visibility="invisible" />
 
@@ -181,6 +189,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="530dp"
                 android:text=""
+                android:textColor="#ffffff"
                 android:textStyle="italic" />
 
             <Button
@@ -189,6 +198,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignStart="@+id/dis"
                 android:layout_below="@+id/hotel5"
+                android:onClick="h5"
                 android:text="BOOK NOW"
                 android:visibility="invisible" />
         </RelativeLayout>

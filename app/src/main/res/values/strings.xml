@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TRAVEL_GUIDE</string>
+    <string name="app_name">TRAVEL_APPLICATION</string>
     <string-array name="travel">
         <item>Trivandrum</item>
         <item>Kollam</item>

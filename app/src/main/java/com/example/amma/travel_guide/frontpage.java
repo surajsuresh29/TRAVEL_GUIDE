@@ -20,17 +20,46 @@ public class frontpage extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     WebView webView;
     public TextView t;
+    public TextView t1,t2,t3,t4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frontpage);
 
         t=findViewById(R.id.head);
-      /*  Bundle b=getIntent().getExtras();
-        String s="";
-        s =b.getString("username");
-        ed.setText(s);*/
+        t1=findViewById(R.id.t1);
+        t2=findViewById(R.id.t2);
+        t3=findViewById(R.id.t3);
+        t4=findViewById(R.id.t4);
+        t1.setText("\n\n\n"+"Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries, are home to elephants, langur monkeys and tigers.");
+        t2.setText("\n\n\t\t\t\t\t\t\t\t\t\t\t\tTHINGS TO DO IN KERALA\n\n");
 
+
+        t3.setText("\n"+"THEKKADY\n\n\n"+
+                "Wildlife refuge, tigers, and elephants\n" +
+                "Thekkady is the location of the Periyar National Park, which is an important tourist attraction in the Kerala state of India.\n"+
+                "\n"+"FORT KOCHI\n\n\n" +
+                "Beaches, fishing, synagogues, and basilicas\n" +
+                "Fort Kochi is a region in the city of Kochi in the state of Kerala, India. This is part of a handful of water-bound regions toward the south-west of the mainland Kochi, and collectively known\n" +
+                "\n"+"PERIYAR\n\n\n"+
+                "Rivers, wildlife refuge, rafting, and lakes\n" +
+                "Periyar is the longest river and the river with the largest discharge potential in the Indian state of Kerala. It is one of the few perennial rivers in the region and provides drinking water\n" +
+                "\n"+"VEMBANAD\n\n\n" +
+                "India's longest lake with a bird reserve\n" +
+                "Sprawling lake with a lush shoreline known for its bird preserve, boating, fishing & festivals.\n" +
+                "\n"+" ERAVIKULAM NATIONAL PARK \n\n\n" +
+                "Views & wild goats in a lush setting\n" +
+                "This scenic natural area with wild goats & greenery has buses that take visitors up a mountain.\n\n"+
+                "\n"+"Athirappilly Falls\n\n\n" +
+                "Popular destination with viewing areas\n" +
+                "Paths lead to the top & bottom of this well-known, 80-foot tall waterfall, the largest in Kerala.\n\n"+
+                "\n"+"PADMANABHASWAMY TEMPLE\n\n\n" +
+                "Monumental Hindu shrine to Vishnu\n" +
+                "1729 temple complex, known for its towering gateway and shrine to Padmanabha reclining on a serpent."
+                +"\n");
+
+
+        t4.setText("\n\t\t\t\t\t\t\t\t*************************************\n");
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -40,8 +69,8 @@ public class frontpage extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), chat.class);
-                startActivity(i);
+               /* Intent i = new Intent(getApplicationContext(), chat.class);
+                startActivity(i);*/
             }
 
         });
@@ -107,17 +136,13 @@ public class frontpage extends AppCompatActivity
             startActivity(i);
 
 
-        } else if (id == R.id.nav_profile) {
-
-        } else if (id == R.id.nav_logout) {
-            Intent i = new Intent(this, login.class);
-            startActivity(i);
-            Toast.makeText(this, "SUCCESSFULLY LOGOUT ", Toast.LENGTH_SHORT).show();
-
         }
-        else if (id == R.id.nav_trip)
+
+
+
+        else if (id == R.id.nav_book)
         {
-            Intent i=new Intent(this,booking.class);
+            Intent i=new Intent(this,hotel1.class);
             startActivity(i);
 
 

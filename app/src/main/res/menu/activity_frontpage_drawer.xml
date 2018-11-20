@@ -11,32 +11,21 @@
         <item
             android:id="@+id/nav_district"
 
-            android:title="DISTRICT" />
+            android:title="TOURIST SPOTS IN KERALA" />
         <item
             android:id="@+id/nav_map"
 
             android:title="MAP" />
         <item
-            android:id="@+id/nav_trip"
+            android:id="@+id/nav_book"
 
-            android:title="TRIP PLANING" />
+            android:title="HOTEL BOOKING" />
         <item
             android:id="@+id/nav_abtus"
 
             android:title="ABOUT US" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_profile"
 
-                android:title="PROFILE" />
-            <item
-                android:id="@+id/nav_logout"
-
-                android:title="LOG_OUT" />
-        </menu>
-    </item>
 
 </menu>
