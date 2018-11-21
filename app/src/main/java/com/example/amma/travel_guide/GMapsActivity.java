@@ -195,16 +195,16 @@ public class GMapsActivity extends FragmentActivity implements OnMapReadyCallbac
 
 
 
-        // Add a marker in allappey and move the camera
-        LatLng allappey = new LatLng(9.5010297, 76.2720647);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(allappey,zoomLevel));
+        // Add a marker in vagmon and move the camera
+        LatLng vagmon = new LatLng(9.6728847, 76.8684833);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(vagmon,zoomLevel));
         // mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(kasargode,30));
         //  mMap.getUiSettings().setZoomControlsEnabled(true);
 
         //mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
 
-        mMap.addMarker(new MarkerOptions().position(allappey).title("Marker in allappey"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(allappey));
+        mMap.addMarker(new MarkerOptions().position(vagmon).title("Marker in vagmon"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(vagmon));
 
     }
 }

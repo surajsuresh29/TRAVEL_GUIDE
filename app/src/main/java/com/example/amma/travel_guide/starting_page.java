@@ -113,7 +113,7 @@ public class starting_page extends AppCompatActivity {
                     }
                     else if(place.equals("Ernakulam"))
                     {
-                        image.setImageResource(R.drawable.athirapally);
+                        image.setImageResource(R.drawable.kochisky);
                         txt2.setText("MARINE DRIVE"+"\n"+"FORT KOCHI"+"\n"+"CHERAI BEACH"+"\n"+"KUZHUPILLY BEACH"+"\n"+"VYPIN"+"\n"+"JEWS STREET"+"\n"+"EZHATTUMUGAM"+"\n"+"ILLITHODU"+"\n"+"KADAMAKUDY");
                     }
                     else if(place.equals("Thrissur"))
@@ -124,17 +124,17 @@ public class starting_page extends AppCompatActivity {
                     }
                     else if(place.equals("Palakkad"))
                     {
-                        image.setImageResource(R.drawable.allapy);
+                        image.setImageResource(R.drawable.nelli);
                         txt2.setText("NELIYAMPATHY"+"\n"+"PALAKKAD FORT"+"\n"+"MALAMPUZHA DAM"+"\n"+"MUKKURTHI NATIONAL PARK"+"\n"+"TPOTHUNDI DAM"+"\n"+"DHONI WATERFALLS"+"\n"+"SILENT VALLEY");
                     }
                     else if(place.equals("Malappuram"))
                     {
-                        image.setImageResource(R.drawable.allapy);
+                        image.setImageResource(R.drawable.mpm);
                         txt2.setText("KODIKUTHIMALA"+"\n"+"ADYANPARA WATER FALLS"+"\n"+"THIRUNAVAYA TEMPLE"+"\n"+"KOTTAKUNNU"+"\n"+"THIRUMANDHAMKUNNU TEMPLE"+"\n"+"NILAMBUR TEAK MUSEUM"+"PONNANI BIYYAM KAYAL PARK"+"\n"+"PONNANI BEACH"+"\n"+"MINI OOTY");
                     }
                     else if(place.equals("Calicut"))
                     {
-                        image.setImageResource(R.drawable.allapy);
+                        image.setImageResource(R.drawable.kozhikode);
                         txt2.setText("KOZHIKODE BEACH"+"\n"+"MITTAYI THERUVU"+"\n"+"MANANCHIRA SQUARE"+"\n"+"KADALUNDI  BIRD SANCTUARY"+"\n"+"BEYPORE BEACH"+"\n"+"TALI SIVA TEMPLE"+"MISHKAL MOSQUE"+"\n"+"KAPPAD BEACH"+"\n"+"VASCODA GAMA MEMMORIAL CHURUCH"+"\n"+"REGIONAL SCIENCE CENTRE AND PLANETARIUM");
 
                     }
@@ -145,12 +145,12 @@ public class starting_page extends AppCompatActivity {
                     }
                     else if(place.equals("Kannur"))
                     {
-                        image.setImageResource(R.drawable.allapy);
+                        image.setImageResource(R.drawable.theyyam);
                         txt2.setText("PARASSINI KADAVU TEMPLE"+"\n"+"MUZHUPPILLANGAD BEACH"+"\n"+"MAPPILA BAY"+"\n"+"ARAKKAL MUSEUM"+"\n"+"KANNUR BEACH"+"\n"+"KANNUR FORT"+"\n"+"PAYYAMBALAM BEACH");
                     }
                     else if(place.equals("Kasargod"))
                     {
-                        image.setImageResource(R.drawable.allapy);
+                        image.setImageResource(R.drawable.kasa);
                         txt2.setText("BEKAL FORT"+"\n"+"MAIPADY PALACE"+"\n"+"HOSDURG FORT"+"\n"+"CANDRAGIRI FORT"+"\n"+"VALIYAPARAMBA");
 
                     }

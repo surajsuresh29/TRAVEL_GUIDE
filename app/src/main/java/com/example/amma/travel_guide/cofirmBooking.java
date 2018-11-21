@@ -84,7 +84,6 @@ public class cofirmBooking extends AppCompatActivity {
                             usrRef.child("Phone").setValue(e2.getText().toString());
                             usrRef.child("Date").setValue(e3.getText().toString());
                             usrRef.child("Days").setValue(e4.getText().toString());
-                            Toast.makeText(cofirmBooking.this, "dghjkllkjhg", Toast.LENGTH_LONG).show();
                         }
 
                         @Override

@@ -55,7 +55,18 @@ public class GalleryImageAdapter extends BaseAdapter
             R.drawable.varkala,
             R.drawable.thekkady,
             R.drawable.allapy,
-            R.drawable.munnar
+            R.drawable.munnar,
+            R.drawable.kasa,
+            R.drawable.kasa2,
+            R.drawable.thekkady,
+            R.drawable.theyyam,
+            R.drawable.thekkady1,
+            R.drawable.kochisky,
+            R.drawable.nelli,
+            R.drawable.bekal,
+            R.drawable.kumarakam,
+            R.drawable.malamp2
+
 
     };
 

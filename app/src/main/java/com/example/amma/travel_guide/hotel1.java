@@ -161,7 +161,7 @@ public class hotel1 extends AppCompatActivity {
                         b4.setVisibility(View.VISIBLE);
                         b5.setVisibility(View.VISIBLE);
 
-                    } else if (place.equals("Alappuzha")) {
+                    } else if (place.equals("Alappey")) {
                         t1.setText("Hotels in Alappuzha are:");
 
                         t2.setText("CASAMARIA BEACH");
@@ -408,7 +408,7 @@ public class hotel1 extends AppCompatActivity {
                         b4.setVisibility(View.VISIBLE);
                         b5.setVisibility(View.VISIBLE);
                     } else {
-                        Toast.makeText(getApplicationContext(), "Please enter a proper district name.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Please selsect a proper district name.", Toast.LENGTH_LONG).show();
                     }
                 }
             });
